@@ -1,0 +1,40 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    color: aqua;
+}
+div{
+    background-image: linear-gradient(blue,pink);
+    border: 10px;
+    margin: auto;
+    text-align: center;
+    max-width: 400px;
+    padding: 25px;
+    border-radius: 10px;
+}
+#ip{
+    width: 50%;
+    text-align: center;
+    font-size: 2em;
+    margin: 3px solid black;
+    margin-bottom: 15px;
+}
+button{
+    margin-top: 10px;
+    border: 2px solid blue;
+    background-color: rgb(25, 226, 226);
+    width: 25%;
+    height: 6vh;
+    border-radius: 10px;
+}
+button:hover{
+    background-color: rgb(6, 252, 252);
+    cursor: pointer;
+}
+h3{
+    margin: 25px;
+}

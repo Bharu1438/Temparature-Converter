@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>temparature converter</title>
+    <link rel="icon" href="./icon.png">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="card">
+        <h1>Temparature Converter</h1>
+        <input type="number" id="ip"><br>
+        
+        <input type="radio" id="forcel" name="temp">
+        <label for="forcel">Celsius to Fahrenheit</label><br>
+
+        <input type="radio" id="forfor" name="temp">
+        <label for="forfor">Fahrenheit  to Celsius</label><br>
+
+        <button type="button" onclick="convert()">Convert</button>
+        <h3 id="result"></h3>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
